@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
 
             override fun onQueryTextChange(newText: String?): Boolean {
                 adapter.filter.filter(newText)
-                Toast.makeText(applicationContext,"TRYING PUSH DIRECOTRY...",Toast.LENGTH_LONG).show()
+                //Toast.makeText(applicationContext,"TRYING PUSH DIRECOTRY...",Toast.LENGTH_LONG).show()
                 return false
             }
 
